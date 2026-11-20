@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirakuru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">Test</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О Компьютерной Криминалистике</a></li>
+                <li><a href="#History">История</a></li>
+                <li><a href="#methods">Методы</a></li>
+                <li><a href="#tools">Инструменты</a></li>
+                <li><a href="#cases">Примеры</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title"></h1>
+                <p class="hero-subtitle">test</p>
+                <p class="hero-description"> test</p>
+                <button class="cta-button" onclick="scrollToSection('about')">
+                    test
+                </button>
+            </div>
+            <div class="hero-visual">
+                <div class="data-grid" id="data-grid"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About OSINT Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Что такое OSINT?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        <strong>test</p>
+                    <div class="osint-features">
+                        <div class="feature">
+                            <h3>test</h3>
+                            <p>test</p>
+                        </div>
+                        <div class="feature">
+                            <h3>test</h3>
+                            <p>test</p>
+                        </div>
+                        <div class="feature">
+                            <h3>test</h3>
+                            <p>test</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="80">0</span>
+                        <span class="stat-label">% информации из открытых источников</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="2000">0</span>
+                        <span class="stat-label">+ OSINT инструментов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="95">0</span>
+                        <span class="stat-label">% успешных расследований</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="History" class="History">
+        <div class="container">
+            <h2 class="section-title">История OSINT</h2>
+            <div class="about-content">
+                <div class="about-text" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <p>
+                        test
+                    </p>
+                    <p>
+                        test
+                    </p>
+                    <p>
+                       test
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methods Section -->
+    <section id="methods" class="methods">
+        <div class="container">
+            <h2 class="section-title">Основные методы OSINT</h2>
+            <div class="methods-grid">
+                <div class="method-card" data-method="social">
+                    <div class="method-icon">📱</div>
+                    <h3>Анализ социальных сетей</h3>
+                    <p>Исследование профилей, связей, активности пользователей в социальных платформах</p>
+                    <div class="method-details">
+                        <ul>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="method-card" data-method="web">
+                    <div class="method-icon">🌐</div>
+                    <h3>Веб-разведка</h3>
+                    <p>Поиск и анализ информации в интернете, включая скрытые и архивные данные</p>
+                    <div class="method-details">
+                        <ul>
+                            <li>Поисковые операторы</li>
+                            <li>Анализ веб-архивов</li>
+                            <li>Поиск в даркнете</li>
+                            <li>Мониторинг форумов</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="method-card" data-method="image">
+                    <div class="method-icon">📸</div>
+                    <h3>Анализ изображений</h3>
+                    <p>Извлечение информации из фотографий, видео и других визуальных материалов</p>
+                    <div class="method-details">
+                        <ul>
+                            <li>Обратный поиск изображений</li>
+                            <li>Анализ метаданных</li>
+                            <li>Геолокация по фото</li>
+                            <li>Распознавание лиц</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="method-card" data-method="data">
+                    <div class="method-icon">📊</div>
+                    <h3>Анализ данных</h3>
+                    <p>Обработка и корреляция больших объемов структурированной информации</p>
+                    <div class="method-details">
+                        <ul>
+                            <li>Анализ баз данных</li>
+                            <li>Корреляция событий</li>
+                            <li>Временные паттерны</li>
+                            <li>Визуализация связей</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2 class="section-title">Инструменты OSINT</h2>
+            <div class="tools-filter">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="search">Поиск</button>
+                <button class="filter-btn" data-filter="social">Соц. сети</button>
+                <button class="filter-btn" data-filter="image">Изображения</button>
+                <button class="filter-btn" data-filter="network">Сеть</button>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card" data-category="search">
+                    <h3>Google Dorking</h3>
+                    <p>Продвинутые поисковые запросы для поиска специфической информации</p>
+                    <div class="tool-example">
+                        <code>site:example.com filetype:pdf "confidential"</code>
+                    </div>
+                </div>
+
+                <div class="tool-card" data-category="social">
+                    <h3>Sherlock</h3>
+                    <p>Поиск аккаунтов пользователя по никнейму в различных социальных сетях</p>
+                    <div class="tool-example">
+                        <code>python3 sherlock username</code>
+                    </div>
+                </div>
+
+                <div class="tool-card" data-category="image">
+                    <h3>TinEye</h3>
+                    <p>Обратный поиск изображений для определения источника и похожих фото</p>
+                    <div class="tool-example">
+                        <code>Загрузка изображения → Анализ → Результаты</code>
+                    </div>
+                </div>
+
+                <div class="tool-card" data-category="network">
+                    <h3>Maltego</h3>
+                    <p>Платформа для визуализации связей и анализа сложных данных</p>
+                    <div class="tool-example">
+                        <code>Граф связей → Трансформации → Анализ</code>
+                    </div>
+                </div>
+
+                <div class="tool-card" data-category="search">
+                    <h3>Shodan</h3>
+                    <p>Поисковая система для интернет-вещей и сетевых устройств</p>
+                    <div class="tool-example">
+                        <code>country:RU port:80 "Apache"</code>
+                    </div>
+                </div>
+
+                <div class="tool-card" data-category="social">
+                    <h3>Social Searcher</h3>
+                    <p>Мониторинг упоминаний и анализ социальных сетей в реальном времени</p>
+                    <div class="tool-example">
+                        <code>Поиск по ключевым словам → Анализ тональности</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real Cases Section -->
+    <section id="cases" class="cases">
+        <div class="container">
+            <h2 class="section-title">Реальные дела с использованием OSINT</h2>
+            <div class="cases-container">
+                <div class="case-card">
+                    <div class="case-header">
+                        <h3>Дело MH17 (2014)</h3>
+                        <span class="case-type">Международное расследование</span>
+                    </div>
+                    <div class="case-content">
+                        <p>
+                            Расследование крушения малайзийского Boeing 777 над Украиной с помощью OSINT-методов. 
+                            Журналисты Bellingcat использовали открытые источники для установления маршрута 
+                            зенитно-ракетного комплекса "Бук".
+                        </p>
+                        <div class="case-methods">
+                            <span class="method-tag">Анализ фото/видео</span>
+                            <span class="method-tag">Геолокация</span>
+                            <span class="method-tag">Соц. сети</span>
+                            <span class="method-tag">Спутниковые снимки</span>
+                        </div>
+                        <div class="case-result">
+                            <strong>Результат:</strong> Установлен маршрут БУКа, идентифицированы причастные лица
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-header">
+                        <h3>Дело Скрипалей (2018)</h3>
+                        <span class="case-type">Контртеррористическое расследование</span>
+                    </div>
+                    <div class="case-content">
+                        <p>
+                            Расследование отравления Сергея и Юлии Скрипаль в Солсбери. OSINT-аналитики 
+                            идентифицировали подозреваемых агентов ГРУ, используя базы данных и фотографии 
+                            с камер наблюдения.
+                        </p>
+                        <div class="case-methods">
+                            <span class="method-tag">Анализ баз данных</span>
+                            <span class="method-tag">Распознавание лиц</span>
+                            <span class="method-tag">Временной анализ</span>
+                            <span class="method-tag">Корреляция данных</span>
+                        </div>
+                        <div class="case-result">
+                            <strong>Результат:</strong> Идентифицированы два агента ГРУ, раскрыты их личности
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-header">
+                        <h3>Поиск пропавших детей</h3>
+                        <span class="case-type">Гуманитарное применение</span>
+                    </div>
+                    <div class="case-content">
+                        <p>
+                            Множественные случаи успешного поиска пропавших детей с использованием OSINT-методов. 
+                            Анализ социальных сетей, камер наблюдения и цифровых следов помогает найти пропавших.
+                        </p>
+                        <div class="case-methods">
+                            <span class="method-tag">Мониторинг соц. сетей</span>
+                            <span class="method-tag">Анализ геоданных</span>
+                            <span class="method-tag">Краудсорсинг</span>
+                            <span class="method-tag">Цифровые следы</span>
+                        </div>
+                        <div class="case-result">
+                            <strong>Результат:</strong> Найдены десятки пропавших детей по всему миру
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-header">
+                        <h3>Штурм Капитолия (2021)</h3>
+                        <span class="case-type">Расследование беспорядков</span>
+                    </div>
+                    <div class="case-content">
+                        <p>
+                            После событий 6 января 2021 года в Вашингтоне, OSINT-аналитики помогли ФБР 
+                            идентифицировать участников штурма Капитолия, используя фото и видео из социальных сетей.
+                        </p>
+                        <div class="case-methods">
+                            <span class="method-tag">Анализ видео</span>
+                            <span class="method-tag">Краудсорсинг</span>
+                            <span class="method-tag">Соц. сети</span>
+                            <span class="method-tag">Распознавание лиц</span>
+                        </div>
+                        <div class="case-result">
+                            <strong>Результат:</strong> Идентифицированы сотни участников, многие арестованы
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты и ресурсы</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Полезные ресурсы</h3>
+                    <ul>
+                        <li><a href="https://osintframework.com/">OSINT Framework</a></li>
+                        <li><a href="https://www.bellingcat.com/">Bellingcat</a></li>
+                        <li><a href="https://www.osintcurio.us/index.htm">OSINT Curious</a></li>
+                        <li><a href="https://inteltechniques.com/">Intel Techniques</a></li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Обратная связь</h3>
+                    <form id="contact-form">
+                        <input type="text" id="name" placeholder="Ваше имя" required>
+                        <input type="email" id="email" placeholder="Ваш email" required>
+                        <textarea id="message" placeholder="Ваше сообщение" required></textarea>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cyber Intelligence. Все права защищены.</p>
+            <p>Создано для образовательных целей</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
